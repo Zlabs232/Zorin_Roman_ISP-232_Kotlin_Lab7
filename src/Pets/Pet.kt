@@ -1,7 +1,15 @@
 package Pets
 
-open class Pet {
-    val name: String = ""
-    val maxHealth: Int = 0
-    val speed: Int = 0
+open class Pet(
+    val name: String,
+    val maxHealth: Int,
+    val speed: Int
+) {
+    open fun describe() {
+        println("Питомец: $name, Здоровье: $maxHealth, Скорость: $speed")
+    }
+
+    open fun makeSound() {
+        println("$name подаёт голос.")
+    }
 }
