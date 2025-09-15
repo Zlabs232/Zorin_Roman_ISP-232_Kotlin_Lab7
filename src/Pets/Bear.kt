@@ -1,0 +1,4 @@
+package Pets
+
+class Bear {
+}
