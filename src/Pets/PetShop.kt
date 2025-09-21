@@ -13,4 +13,18 @@ fun main() {
         pet.makeSound()
         println()
     }
+
+    val pets2 = listOf(
+        Wolf(name = "Фенрир"),
+        Cat(name = "Мурзик"),
+        Eagle(name = "Скайвинд"),
+        Bear(name = "Балу")
+    )
+
+    println("Информация о питомцах:")
+    for (pet in pets2) {
+        pet.describe()
+        pet.makeSound()
+        println()
+    }
 }
