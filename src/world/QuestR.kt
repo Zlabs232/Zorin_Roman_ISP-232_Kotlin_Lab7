@@ -21,7 +21,7 @@ fun main() {
 
     println("Все доступные квесты:")
     for (q in quests) {
-        q.printInfo()
+//        q.printInfo()
         println("Золото в час: ${"%.2f".format(q.goldPerHour())} монет/час")
         println()
     }

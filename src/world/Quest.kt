@@ -7,11 +7,8 @@ class Quest(
     val difficulty: String
 ) : Mission(title, reward) {
 
-    fun printInfo() {
-        println("Название квеста: $title")
-        println("Время выполнения: $duration часов")
-        println("Награда: $reward монет")
-        println("Уровень сложности: $difficulty")
+    override fun describe() {
+        println("Квест '$title' на $duration часов, сложность: $difficulty, награда: $reward золотых")
     }
 
     fun isHard(): Boolean {

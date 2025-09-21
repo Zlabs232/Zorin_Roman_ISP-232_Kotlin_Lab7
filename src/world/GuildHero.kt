@@ -41,7 +41,7 @@ fun main() {
 
     // Демонстрация работы методов
     println("\n=== ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ ===")
-    quest.printInfo()
+//    quest.printInfo()
     println("\n---")
     contract.printContractInfo()
 }
