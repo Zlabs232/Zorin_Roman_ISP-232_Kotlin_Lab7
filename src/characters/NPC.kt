@@ -1,11 +1,11 @@
 package characters
 
 class NPC(
-    name: String,
-    hp: Int,
-    element: String,
-    val faction: String,
-    val hasQuest: Boolean
+    name: String = "NPC",
+    hp: Int = 100,
+    element: String = "sdfsf",
+    val faction: String = "sdfsf",
+    val hasQuest: Boolean = false
 ) : GameCharacter(name, hp, element) {
 
     fun giveQuest() {

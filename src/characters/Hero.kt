@@ -4,7 +4,7 @@ import magic.Spell
 
 class Hero(
     name: String,
-    hp: Int,
+    hp: Int = 100,
     val gender: String = "Мужской",
     val role: String = "Воин",
     var mp: Int = 50,

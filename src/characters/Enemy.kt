@@ -1,9 +1,9 @@
 package characters
 
 open class Enemy(
-    name: String,
-    hp: Int,
-    element: String,
+    name: String = "Неизвестно",
+    hp: Int = 100,
+    element: String = "sdfsf",
     val aggressionLevel: Int = 2
 ) : GameCharacter(name, hp, element) {
 
